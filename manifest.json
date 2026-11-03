@@ -1,0 +1,45 @@
+{
+  "_readme": [
+    "NanoVisuals manifest. Положи этот файл в корень репозитория NanoVisualsRelease (ветка master),",
+    "и лаунчер будет тянуть его при каждом запуске. Правишь только этот файл при",
+    "релизе - больше нигде ничего менять не надо.",
+    "",
+    "Адрес манифеста по умолчанию:",
+    "https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/manifest.json",
+    "",
+    "Его же можно вписать вручную: Настройки -> Расширенное -> Адрес манифеста."
+  ],
+
+  "client": {
+    "version": "1.21.11-Nano-Alpha",
+
+    "minecraft": "1.21.11",
+    "loader": "0.19.5",
+
+    "mirrors": [
+      "https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha.jar"
+    ],
+
+    "_mirrors_note": [
+      "Список обходится по очереди, пока не скачается файл с верным sha256.",
+      "Добавить второе зерно - новой строкой в массиве, тогда падение одного хоста",
+      "не убьёт обновления у всех.",
+      "Для Dropbox используй dl=1 и не добавляй параметр st= (он протухает)."
+    ],
+
+    "_digest_note": [
+      "sha256 - хеш ВСЕГО файла. Именно его сверяет лаунчер после скачивания.",
+      "classSeal - пломба из build.gradle (sealJar), только по .class внутри джарника.",
+      "Её проверяет LicenseSeal уже в игре. Это два разных значения, не путать.",
+      "Если перезальёшь jar - ПЕРЕСЧИТАЙ ОБА, иначе лаунчер отклонит файл."
+    ],
+
+    "sha256": "954421d9a303a6f1511ad2912653f61bba7bfa7e6107ce86b73c50a598bce12f",
+    "classSeal": "eae4f1a1636ae1c516c9a520ed4a3b7d10e51453adc83d9b019144e123d197c4",
+    "size": 33921813
+  },
+
+  "fabricApi": {
+    "version": "0.141.6+1.21.11"
+  }
+}
