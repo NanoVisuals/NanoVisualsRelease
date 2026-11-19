@@ -17,7 +17,10 @@
     "loader": "0.19.5",
 
     "mirrors": [
-      "https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha.jar"
+      "https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha.jar",
+      "https://ghproxy.net/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha.jar",
+      "https://gh-proxy.com/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha.jar",
+      "https://ghfast.top/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha.jar"
     ],
 
     "_mirrors_note": [
