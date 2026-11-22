@@ -37,9 +37,9 @@
       "Если перезальёшь jar - ПЕРЕСЧИТАЙ ОБА, иначе лаунчер отклонит файл."
     ],
 
-    "sha256": "d9f7fb2324d5602a1021bcf9287d08307d40d9a39d260285c51eabc4fa8affb7",
-    "classSeal": "0350d243bc2f0f8ae800ca5488cd101163e8da9bf4d03fa8cb7146afcbe2ad2e",
-    "size": 39600152
+    "sha256": "69f686770f72d2d09f8130cf81748c1b0dc31a313316187d7577f9ebb0abe29f",
+    "classSeal": "935dc34a539619117cf3531257a36a033d51a376d3c2b4800a5d7e2d9cfa18b9",
+    "size": 39610094
   },
 
   "fabricApi": {
