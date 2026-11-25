@@ -11,16 +11,16 @@
   ],
 
   "client": {
-    "version": "1.21.11-Nano-Alpha2",
+    "version": "1.21.11-Nano-Alpha3",
 
     "minecraft": "1.21.11",
     "loader": "0.19.5",
 
     "mirrors": [
-      "https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha2.jar",
-      "https://ghproxy.net/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha2.jar",
-      "https://gh-proxy.com/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha2.jar",
-      "https://ghfast.top/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha2.jar"
+      "https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha3.jar",
+      "https://ghproxy.net/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha3.jar",
+      "https://gh-proxy.com/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha3.jar",
+      "https://ghfast.top/https://raw.githubusercontent.com/NanoVisuals/NanoVisualsRelease/master/nanovisuals-1.21.11-Nano-Alpha3.jar"
     ],
 
     "_mirrors_note": [
@@ -37,9 +37,9 @@
       "Если перезальёшь jar - ПЕРЕСЧИТАЙ ОБА, иначе лаунчер отклонит файл."
     ],
 
-    "sha256": "93a7a7202cc10277477ab7330818477685754e8a4f2886d6d588caa4947b4211",
-    "classSeal": "935dc34a539619117cf3531257a36a033d51a376d3c2b4800a5d7e2d9cfa18b9",
-    "size": 39610095
+    "sha256": "a8aa0d9415cbf2e8585d13e3bd021d91766687d8aeeeb6c2e2fa01696b80d862",
+    "classSeal": "4e1af2f133d4ec9111e1827ef942f4cab1a3a8430742d911ce4e4a01c664ca61",
+    "size": 39610143
   },
 
   "fabricApi": {
